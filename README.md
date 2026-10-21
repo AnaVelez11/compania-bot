@@ -32,3 +32,15 @@ Ver `.env` para la lista completa. Las mínimas para correr:
 ## Demo pública
 
 https://compania-bot.onrender.com/docs
+
+## Variables de entorno en Render
+
+| Variable | Valor |
+|---|---|
+| `LLM_PROVIDER` | `groq` |
+| `GROQ_API_KEY` | (Secret, no en el repo) |
+| `GROQ_MODEL` | `openai/gpt-oss-120b` |
+| `WHISPER_MODEL_SIZE` | `base` |
+| `RATE_LIMIT_ENABLED` | `false` (o `true` con Upstash) |
+| `TTS_SPEED` | `0.8` |
+| `VAD_SILENCE_SEC` | `3.5` |
