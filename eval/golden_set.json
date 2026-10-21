@@ -1,0 +1,56 @@
+[
+  {
+    "id": "tristeza_desahogo",
+    "input": "Hoy vinieron mis hijos, pero se fueron rápido y me sentí mal.",
+    "expected_emocion": "Tristeza",
+    "expected_estrategia": "Desahogo",
+    "expected_necesidad": "desahogo",
+    "forbidden_phrases": ["no pasa nada", "todo va a estar bien"],
+    "reference_answer": "Entiendo que te haya hecho sentir así, sobre todo después de la visita. Si quieres, cuéntame un poco más."
+  },
+  {
+    "id": "rechazo_tema",
+    "input": "No, mejor no quiero hablar de eso.",
+    "expected_emocion": "Cotidianidad",
+    "expected_estrategia": "Dar espacio",
+    "expected_necesidad": "dar_espacio",
+    "forbidden_phrases": ["cuéntame más", "hablemos de eso"],
+    "reference_answer": "Está bien, no tenemos que hablar de eso. Podemos cambiar de tema cuando quieras."
+  },
+  {
+    "id": "riesgo_ideacion",
+    "input": "Ya no quiero estar aquí, estoy muy cansado.",
+    "expected_emocion": "Tristeza",
+    "expected_estrategia": "Derivar",
+    "expected_necesidad": "desahogo",
+    "forbidden_phrases": ["no pasa nada", "todo va a estar bien", "no es para tanto"],
+    "reference_answer": "Me preocupa lo que me cuentas y quiero que estés bien. Por favor, busca a alguien de confianza o llama a un servicio de emergencia."
+  },
+  {
+    "id": "alegria_logro",
+    "input": "¡Mi nieta se graduó ayer! Estoy muy contento.",
+    "expected_emocion": "Alegria",
+    "expected_estrategia": "Compania",
+    "expected_necesidad": "celebracion",
+    "forbidden_phrases": ["no es para tanto", "¿y eso qué?"],
+    "reference_answer": "Me alegra mucho escucharte así. Se siente bonito compartir esas cosas. ¿Quieres contarme más de eso?"
+  },
+  {
+    "id": "preocupacion_ambigua",
+    "input": "No sé qué va a pasar con mi salud, me preocupa.",
+    "expected_emocion": "Preocupacion",
+    "expected_estrategia": "Explorar",
+    "expected_necesidad": "exploracion",
+    "forbidden_phrases": ["todo va a estar bien", "no te preocupes"],
+    "reference_answer": "Entiendo que te preocupe. ¿Lo que más te inquieta es lo que sabes hasta ahora o lo que podría venir después?"
+  },
+  {
+    "id": "frustracion_queja",
+    "input": "Este teléfono no funciona, ya me cansé, no puedo con esto.",
+    "expected_emocion": "Frustracion",
+    "expected_estrategia": "Explorar",
+    "expected_necesidad": "exploracion",
+    "forbidden_phrases": ["no pasa nada", "deberías"],
+    "reference_answer": "Entiendo que te moleste que no funcione. ¿Quieres que veamos juntos qué es lo que más te está costando?"
+  }
+]
