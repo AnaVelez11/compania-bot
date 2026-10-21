@@ -29,3 +29,6 @@ Ver `.env` para la lista completa. Las mínimas para correr:
 - `GROQ_API_KEY=gsk_...`
 - `GROQ_MODEL=openai/gpt-oss-120b`
 
+## Demo pública
+
+https://compania-bot.onrender.com/docs
