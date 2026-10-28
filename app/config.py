@@ -45,7 +45,7 @@ class Settings(BaseSettings):
     whisper_compute_type: str = "int8"
 
     # LLM
-    llm_max_tokens: int = 300
+    llm_max_tokens: int = 1024
     llm_temperature: float = 0.4
 
     @field_validator(
